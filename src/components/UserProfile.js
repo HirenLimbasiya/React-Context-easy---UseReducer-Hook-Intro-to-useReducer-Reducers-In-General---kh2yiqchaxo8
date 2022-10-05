@@ -7,8 +7,8 @@ const UserProfile = () =>{
         <UserContext.Consumer>
     {
         (data) => <>
-        <h1 id="name">{data.name}</h1>
-        <h1 id="age">{data.age}</h1>
+        <h1 id="name">Name:- {data.name}</h1>
+        <h1 id="age">Age:- {data.age}</h1>
     </>
     }
     </UserContext.Consumer>
